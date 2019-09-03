@@ -1,0 +1,35 @@
+{
+  "name": "settheory",
+  "version": "1.0.0",
+  "description": "Set Theory",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "test": "jest"
+  },
+  "keywords": [
+    "set",
+    "set theory",
+    "union",
+    "intesection",
+    "diference",
+    "subset"
+  ],
+  "author": {
+    "name": "Andrés Bedoya",
+    "url": "https://gecken.co/"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.10"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
